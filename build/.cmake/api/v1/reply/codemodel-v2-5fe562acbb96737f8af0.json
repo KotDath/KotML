@@ -1,0 +1,295 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						3,
+						7
+					]
+				},
+				{
+					"build" : "tests",
+					"jsonFile" : "directory-tests-Debug-b01f6abb0ab61427ef3b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						11,
+						12,
+						21
+					]
+				},
+				{
+					"build" : "examples",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-examples-Debug-ab4dc6b1a1db538bec61.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "examples",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						4,
+						5,
+						6,
+						8,
+						9,
+						10,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						22
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "KotML",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "basic_usage::@714eac15f71a94114fdf",
+					"jsonFile" : "target-basic_usage-Debug-299a6b976fe85139ffcb.json",
+					"name" : "basic_usage",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "csv_example::@714eac15f71a94114fdf",
+					"jsonFile" : "target-csv_example-Debug-5699783ca4a07870adaf.json",
+					"name" : "csv_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "dataloader_example::@714eac15f71a94114fdf",
+					"jsonFile" : "target-dataloader_example-Debug-002030f52102ac3e2774.json",
+					"name" : "dataloader_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "debug_chain::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-debug_chain-Debug-246e2d6d71ec37fd4137.json",
+					"name" : "debug_chain",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ffn_classification::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ffn_classification-Debug-48c5085939b281b0f81c.json",
+					"name" : "ffn_classification",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ffn_demo::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ffn_demo-Debug-a6f76d5d558f0cab085f.json",
+					"name" : "ffn_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "ffn_vs_sequential::@714eac15f71a94114fdf",
+					"jsonFile" : "target-ffn_vs_sequential-Debug-f260bf295f0fa6e659d1.json",
+					"name" : "ffn_vs_sequential",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "kotml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-kotml-Debug-71c54213f6690e0dff77.json",
+					"name" : "kotml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "layers_demo::@714eac15f71a94114fdf",
+					"jsonFile" : "target-layers_demo-Debug-cd1c16899f6d44136805.json",
+					"name" : "layers_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "linear_regression_example::@714eac15f71a94114fdf",
+					"jsonFile" : "target-linear_regression_example-Debug-ca51e4a7a7eb9f0d6b55.json",
+					"name" : "linear_regression_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "loss_example::@714eac15f71a94114fdf",
+					"jsonFile" : "target-loss_example-Debug-a71207fa05d9a5a97509.json",
+					"name" : "loss_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "nn_tests::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-nn_tests-Debug-82eb76f0efd8c621ba9f.json",
+					"name" : "nn_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "optim_tests::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-optim_tests-Debug-2980f52399c32b0489fc.json",
+					"name" : "optim_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "optimization_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-optimization_test-Debug-69cbfe3958fa868bcc23.json",
+					"name" : "optimization_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "optimizer_comparison::@714eac15f71a94114fdf",
+					"jsonFile" : "target-optimizer_comparison-Debug-726d96057c73b5b963f8.json",
+					"name" : "optimizer_comparison",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "progress_bar_demo::@714eac15f71a94114fdf",
+					"jsonFile" : "target-progress_bar_demo-Debug-fc73aaaf1ba002216efe.json",
+					"name" : "progress_bar_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "sequential_demo::@714eac15f71a94114fdf",
+					"jsonFile" : "target-sequential_demo-Debug-e03af9d6d53e2cbcd77b.json",
+					"name" : "sequential_demo",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "sequential_simple::@714eac15f71a94114fdf",
+					"jsonFile" : "target-sequential_simple-Debug-995fd0d9ddd050db8e37.json",
+					"name" : "sequential_simple",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "sgd_example::@714eac15f71a94114fdf",
+					"jsonFile" : "target-sgd_example-Debug-3f22f612f96591951e49.json",
+					"name" : "sgd_example",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "simple_autograd::@714eac15f71a94114fdf",
+					"jsonFile" : "target-simple_autograd-Debug-39f42e4ff26f3af079a5.json",
+					"name" : "simple_autograd",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "simple_linear_test::@714eac15f71a94114fdf",
+					"jsonFile" : "target-simple_linear_test-Debug-603244d41c3192013341.json",
+					"name" : "simple_linear_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tensor_tests::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-tensor_tests-Debug-c38d6aee77f43cd03a5b.json",
+					"name" : "tensor_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "training_example::@714eac15f71a94114fdf",
+					"jsonFile" : "target-training_example-Debug-7a2dc3b0e44deea08de6.json",
+					"name" : "training_example",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/kotdath/omp/personal/KotML/build",
+		"source" : "/home/kotdath/omp/personal/KotML"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

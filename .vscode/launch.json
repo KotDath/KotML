@@ -1,0 +1,146 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Linear Regression Example (Stop at Entry)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/examples/linear_regression_example",
+            "args": [],
+            "stopAtEntry": true,
+            "cwd": "${workspaceFolder}/build",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "set disassembly-flavor intel",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Skip prologue",
+                    "text": "set skip-prologue on",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build-linear-regression",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "logging": {
+                "engineLogging": false,
+                "programOutput": true,
+                "trace": false
+            },
+            "symbolSearchPath": "${workspaceFolder}/build",
+            "sourceFileMap": {
+                "/build/": "${workspaceFolder}/"
+            },
+            "additionalSOLibSearchPath": "${workspaceFolder}/build"
+        },
+        {
+            "name": "Debug Linear Regression Example",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/examples/linear_regression_example",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/build",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "set disassembly-flavor intel",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Skip prologue",
+                    "text": "set skip-prologue on",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build-linear-regression",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "logging": {
+                "engineLogging": false,
+                "programOutput": true,
+                "trace": false
+            },
+            "symbolSearchPath": "${workspaceFolder}/build",
+            "sourceFileMap": {
+                "/build/": "${workspaceFolder}/"
+            },
+            "additionalSOLibSearchPath": "${workspaceFolder}/build"
+        },
+        {
+            "name": "Debug Training Example",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/examples/training_example",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/build",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build-training",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "symbolSearchPath": "${workspaceFolder}/build",
+            "additionalSOLibSearchPath": "${workspaceFolder}/build"
+        },
+        {
+            "name": "Debug Any Example",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/examples/${input:exampleName}",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/build",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "build-all-examples",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "symbolSearchPath": "${workspaceFolder}/build",
+            "additionalSOLibSearchPath": "${workspaceFolder}/build"
+        }
+    ],
+    "inputs": [
+        {
+            "id": "exampleName",
+            "description": "Enter example name",
+            "default": "linear_regression_example",
+            "type": "promptString"
+        }
+    ]
+} 

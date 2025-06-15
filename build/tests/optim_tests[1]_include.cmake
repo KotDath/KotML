@@ -1,0 +1,5 @@
+if(EXISTS "/home/kotdath/omp/personal/KotML/build/tests/optim_tests[1]_tests.cmake")
+  include("/home/kotdath/omp/personal/KotML/build/tests/optim_tests[1]_tests.cmake")
+else()
+  add_test(optim_tests_NOT_BUILT optim_tests_NOT_BUILT)
+endif()

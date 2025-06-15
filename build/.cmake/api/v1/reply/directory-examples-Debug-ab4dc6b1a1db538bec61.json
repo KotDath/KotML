@@ -1,0 +1,249 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"examples/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 76,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin/examples",
+			"paths" : 
+			[
+				"examples/basic_usage"
+			],
+			"targetId" : "basic_usage::@714eac15f71a94114fdf",
+			"targetIndex" : 0,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin/examples",
+			"paths" : 
+			[
+				"examples/simple_autograd"
+			],
+			"targetId" : "simple_autograd::@714eac15f71a94114fdf",
+			"targetIndex" : 19,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin/examples",
+			"paths" : 
+			[
+				"examples/ffn_demo"
+			],
+			"targetId" : "ffn_demo::@714eac15f71a94114fdf",
+			"targetIndex" : 5,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin/examples",
+			"paths" : 
+			[
+				"examples/ffn_classification"
+			],
+			"targetId" : "ffn_classification::@714eac15f71a94114fdf",
+			"targetIndex" : 4,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin/examples",
+			"paths" : 
+			[
+				"examples/layers_demo"
+			],
+			"targetId" : "layers_demo::@714eac15f71a94114fdf",
+			"targetIndex" : 8,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin/examples",
+			"paths" : 
+			[
+				"examples/sequential_demo"
+			],
+			"targetId" : "sequential_demo::@714eac15f71a94114fdf",
+			"targetIndex" : 16,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin/examples",
+			"paths" : 
+			[
+				"examples/sequential_simple"
+			],
+			"targetId" : "sequential_simple::@714eac15f71a94114fdf",
+			"targetIndex" : 17,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin/examples",
+			"paths" : 
+			[
+				"examples/ffn_vs_sequential"
+			],
+			"targetId" : "ffn_vs_sequential::@714eac15f71a94114fdf",
+			"targetIndex" : 6,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin/examples",
+			"paths" : 
+			[
+				"examples/sgd_example"
+			],
+			"targetId" : "sgd_example::@714eac15f71a94114fdf",
+			"targetIndex" : 18,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin/examples",
+			"paths" : 
+			[
+				"examples/optimizer_comparison"
+			],
+			"targetId" : "optimizer_comparison::@714eac15f71a94114fdf",
+			"targetIndex" : 14,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin/examples",
+			"paths" : 
+			[
+				"examples/loss_example"
+			],
+			"targetId" : "loss_example::@714eac15f71a94114fdf",
+			"targetIndex" : 10,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin/examples",
+			"paths" : 
+			[
+				"examples/dataloader_example"
+			],
+			"targetId" : "dataloader_example::@714eac15f71a94114fdf",
+			"targetIndex" : 2,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin/examples",
+			"paths" : 
+			[
+				"examples/csv_example"
+			],
+			"targetId" : "csv_example::@714eac15f71a94114fdf",
+			"targetIndex" : 1,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin/examples",
+			"paths" : 
+			[
+				"examples/training_example"
+			],
+			"targetId" : "training_example::@714eac15f71a94114fdf",
+			"targetIndex" : 22,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin/examples",
+			"paths" : 
+			[
+				"examples/linear_regression_example"
+			],
+			"targetId" : "linear_regression_example::@714eac15f71a94114fdf",
+			"targetIndex" : 9,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin/examples",
+			"paths" : 
+			[
+				"examples/simple_linear_test"
+			],
+			"targetId" : "simple_linear_test::@714eac15f71a94114fdf",
+			"targetIndex" : 20,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin/examples",
+			"paths" : 
+			[
+				"examples/optimization_test"
+			],
+			"targetId" : "optimization_test::@714eac15f71a94114fdf",
+			"targetIndex" : 13,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin/examples",
+			"paths" : 
+			[
+				"examples/progress_bar_demo"
+			],
+			"targetId" : "progress_bar_demo::@714eac15f71a94114fdf",
+			"targetIndex" : 15,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "examples",
+		"source" : "examples"
+	}
+}
